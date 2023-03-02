@@ -12,6 +12,6 @@ router.register(
 
 urlpatterns = [
     path('', include(router.urls)),
-    path('api_token_auth/', obtain_token),
+    path('obtain_token/', obtain_token),
     path('logout/', logout)
 ]
